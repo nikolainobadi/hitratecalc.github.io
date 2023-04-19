@@ -1,39 +1,8 @@
-   * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .logo img {
-    height: 50px;
-    margin-right: 10px;
-  }
-  
-  nav ul {
-    list-style: none;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-
+   @import url("shared.css");
+   
   main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
   }
   
   .intro {
@@ -55,7 +24,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 140px;
   }
   
   .screenshots h2 {
@@ -65,34 +34,5 @@
   
   .screenshots img {
     width: calc(33.33% - 10px);
-    margin-bottom: 20px;
   }
-  
-  footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #333;
-  color: #fff;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-footer nav {
-  margin-bottom: 10px;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer a {
-  color: #fff;
-  text-decoration: underline;
-}
-
-footer a:hover {
-  text-decoration: none;
-}
-
   
